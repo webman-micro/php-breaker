@@ -1,0 +1,16 @@
+{
+    "name": "webman-micro/php-breaker",
+    "type": "library",
+    "license": "MIT",
+    "description": "Webman plugin breaker component",
+    "require": {
+        "php": ">=7.4",
+        "leocarmo/circuit-breaker-php": "^3.0",
+        "workbunny/webman-shared-cache": "^0.5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebmanMicro\\PhpBreaker\\": "src/"
+        }
+    }
+}
